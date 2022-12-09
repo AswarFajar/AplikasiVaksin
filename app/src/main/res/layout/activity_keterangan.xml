@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KeteranganActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:src="@drawable/bg1"/>
+
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="160dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rumah Sakit Wahidin"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="120dp"/>
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:src="@drawable/gambar4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="45dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempat ini tersedia untuk melakukan Vaksin"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:text="Lihat Lokasi"
+            android:textColor="#fff"
+            android:background="@drawable/button"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
